@@ -4,10 +4,7 @@ import cors from 'cors';
 const app = express()
 
 const corsOptions = {
-	origin: 
-  'https://climatempo-challenge-pi.vercel.app' 
-    && 
-  "http://localhost:5173/",
+	origin: 'https://climatempo-challenge-pi.vercel.app',
 	optionsSuccessStatus: 200
 };
 
